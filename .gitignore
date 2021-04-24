@@ -3,3 +3,4 @@
 *.pyc
 .aws-sam/*
 .helloworldvenv/*
+packaged.yaml

@@ -9,7 +9,7 @@ Resources:
       ServiceRole: !Sub 'arn:aws:iam::${AWS::AccountId}:role/service-role/codebuild-sam-python-hello-world-service-role'
       Artifacts:
         Type: S3
-        Location: sam-artifacts-sou
+        Location: cd-ci-project
         Name: code-build-artifacts
         Path: ''
         NamespaceType: NONE

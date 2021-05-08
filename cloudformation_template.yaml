@@ -4,7 +4,7 @@ Resources:
   SamCodeBuildBasic:
     Type: AWS::CodeBuild::Project
     Properties:
-      Name: sam-deployment
+      Name: sam-deployment-basic
       Description: CloudFormation Template
       ServiceRole: !Sub 'arn:aws:iam::${AWS::AccountId}:role/service-role/codebuild-sam-python-hello-world-service-role'
       Artifacts:

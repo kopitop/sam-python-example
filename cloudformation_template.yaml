@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description: Template creates Codebuild resources for a simple SAM Application
 Resources:
-  SamCodeBuild:
+  SamCodeBuildBasic:
     Type: AWS::CodeBuild::Project
     Properties:
       Name: sam-deployment

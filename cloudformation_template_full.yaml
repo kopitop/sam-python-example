@@ -4,7 +4,7 @@ Resources:
   SamCodeBuild:
     Type: AWS::CodeBuild::Project
     Properties:
-      Name: sam-deployment-v2
+      Name: sam-deployment-modified
       Description: Full cloudformation template
       ServiceRole: !GetAtt CodeBuildIAMRole.Arn
       Artifacts:

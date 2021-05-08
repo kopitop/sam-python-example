@@ -5,7 +5,7 @@ Resources:
     Type: AWS::CodeBuild::Project
     Properties:
       Name: sam-deployment-v2
-      Description: Build process for a simple Python HelloWorld Application deployed using AWS SAM
+      Description: Full cloudformation template
       ServiceRole: !GetAtt CodeBuildIAMRole.Arn
       Artifacts:
         Type: S3

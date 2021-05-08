@@ -3,5 +3,5 @@ import json
 def lambda_handler(event, context):
     return {
         'statusCode': 200,
-        'body': json.dumps('Project One for BKHN 2021')
+        'body': json.dumps('Project One for BKHN 2021. Successful response')
     }
